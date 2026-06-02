@@ -5,8 +5,8 @@ import os
 X_APP_ID = os.environ.get("X_APP_ID")
 X_APP_KEY = os.environ.get("X_APP_KEY")
 SHEETY_TOKEN = os.environ.get("SHEETY_TOKEN")
-NUTRITION_ENDPOINT = os.environ.get("NUTRITION_ENDPOINT")
-SHEETY_ENDPOINT = os.environ.get("SHEETY_ENDPOINT")
+NUTRITION_ENDPOINT = "https://app.100daysofpython.dev/v1/nutrition/natural/exercise"
+SHEETY_ENDPOINT = "https://api.sheety.co/5033845c47594176434a05a97f36178e/myWorkouts/workouts"
 WEIGHT_KG = 58 # weight in Kg
 HEIGHT_CM = 175 # height in centimeter
 AGE = 18
